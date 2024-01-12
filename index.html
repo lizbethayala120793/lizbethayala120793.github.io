@@ -110,6 +110,17 @@
             text-align: center;
             padding: 1em 0;
         }
+
+        /* Media Query para pantallas más pequeñas (móviles) */
+        @media (max-width: 768px) {
+            section {
+                width: 90%; /* Reducir el ancho de la sección */
+            }
+
+            li {
+                width: calc(50% - 20px); /* Dos elementos por fila */
+            }
+        }
     </style>
 </head>
 <body>
@@ -161,7 +172,6 @@
             </ul>
         </section>
 
-        <!-- Nueva Sección -->
         <section>
             <h2>Proteínas</h2>
             <ul>
@@ -297,9 +307,7 @@
 			
             </ul>
         </section>
-		
-		
-		      <!-- Nueva Sección -->
+
         <section>
             <h2>Pre-entrenos</h2>
             <ul>
