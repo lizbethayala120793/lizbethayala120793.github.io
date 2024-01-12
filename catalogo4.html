@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Suplementos Deportivos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFAFA;
+            color: #333;
+        }
+
+        header {
+            background-color: #AFEEEE;
+            color: #708090;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 80vh;
+        }
+
+        section {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 80%;
+            max-width: 800px;
+            padding: 20px;
+            margin-bottom: 30px; /* Espacio entre secciones */
+        }
+
+        h2 {
+            color: #708090;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        li {
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            border: 2px solid #AFEEEE;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        li:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 2px solid #AFEEEE;
+        }
+
+        .producto-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        h3 {
+            color: #708090;
+        }
+
+        p {
+            color: #555;
+        }
+
+        button {
+            background-color: #AFEEEE;
+            color: #708090;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #AFEEEE;
+        }
+
+        footer {
+            background-color: #AFEEEE;
+            color: #708090;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Catálogo de Suplementos Deportivos</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bebibles</h2>
+            <ul>
+                <li>
+                    <img src="Imagen1.jpg" alt="Suplemento 1">
+                    <div class="producto-info">
+                        <h3>Ryse Fuel 12 pack de Ryse Up 1</h3>
+                        
+                        <p>Precio: $799.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen2.jpg" alt="Suplemento 2">
+                    <div class="producto-info">
+                        <h3>C4 Energy 12 Pack de Cellucor</h3>
+                        
+                        <p>Precio: $841.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen3.jpg" alt="Suplemento 3">
+                    <div class="producto-info">
+                        <h3>Carnivor RTD 12 Pack de Musclemeds </h3>
+                        
+                        <p>Precio: $899.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+				<li>
+                    <img src="Imagen4.jpg" alt="Suplemento 3">
+                    <div class="producto-info">
+                        <h3>Bang 12 Pack de VPX </h3>
+                        
+                        <p>Precio: $650.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Nueva Sección -->
+        <section>
+            <h2>Proteínas</h2>
+            <ul>
+                <li>
+                    <img src="Imagen5.jpg" alt="Nuevo Suplemento 1">
+                    <div class="producto-info">
+                        <h3>Punisher Whey de Terror Labz</h3>
+                          <p>Precio: $1100.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen6.jpg" alt="Nuevo Suplemento 2">
+                    <div class="producto-info">
+                        <h3>Iso Fit de Nutrex </h3>
+                        
+                        <p>Precio: $1240.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen7.jpg" alt="Nuevo Suplemento 3">
+                    <div class="producto-info">
+                        <h3>Premium Protein de Hi Tech</h3>
+                        
+                        <p>Precio: $1120.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+				<li>
+                    <img src="Imagen8.jpg" alt="Nuevo Suplemento 1">
+                    <div class="producto-info">
+                        <h3>Animal Whey de Universal</h3>
+                          <p>Precio: $1000.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen9.jpg" alt="Nuevo Suplemento 2">
+                    <div class="producto-info">
+                        <h3>Whey Protein Grass Fed de Muscletech </h3>
+                        
+                        <p>Precio: $1020.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen10.jpg" alt="Nuevo Suplemento 3">
+                    <div class="producto-info">
+                        <h3>Isopure 3 lb de Nature's Best </h3>
+                        
+                        <p>Precio: $1350.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+				<li>
+                    <img src="Imagen11.jpg" alt="Nuevo Suplemento 1">
+                    <div class="producto-info">
+                        <h3>Isophorm 2 lb de Dragon Pharma </h3>
+                          <p>Precio: $870.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen12.jpg" alt="Nuevo Suplemento 2">
+                    <div class="producto-info">
+                        <h3>Whey Phorm de Dragon Pharma  </h3>
+                        
+                        <p>Precio: $1220.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen13.jpg" alt="Nuevo Suplemento 3">
+                    <div class="producto-info">
+                        <h3>IC BUM Iso de RAW  </h3>
+                        
+                        <p>Precio: $900.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+				<li>
+                    <img src="Imagen14.jpg" alt="Nuevo Suplemento 1">
+                    <div class="producto-info">
+                        <h3>Carnivor de Musclemeds </h3>
+                          <p>Precio: $1065.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen15.jpg" alt="Nuevo Suplemento 2">
+                    <div class="producto-info">
+                        <h3>Carnivor 8 lb de de Muclemeds  </h3>
+                        
+                        <p>Precio: $1500.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen16.jpg" alt="Nuevo Suplemento 3">
+                    <div class="producto-info">
+                        <h3>  Iso Surge de Mutant</h3>
+                        <p>Precio: $1350.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+				<li>
+                    <img src="Imagen17.jpg" alt="Nuevo Suplemento 1">
+                    <div class="producto-info">
+                        <h3>Isoject 2 lb de Evogen  </h3>
+                          <p>Precio: $990.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen18.jpg" alt="Nuevo Suplemento 2">
+                    <div class="producto-info">
+                        <h3>Isoject clear 1.14 lb de Evogen   </h3>
+                        
+                        <p>Precio: $970.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="Imagen19.jpg" alt="Nuevo Suplemento 3">
+                    <div class="producto-info">
+                        <h3>  Isoject 4 lb de Evogen </h3>
+                        <p>Precio: $1530.00</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+            		
+			
+            </ul>
+        </section>
+		
+		
+		      <!-- Nueva Sección -->
+        <section>
+            <h2>Pre-entrenos</h2>
+            <ul>
+                <li>
+                    <img src="producto4.jpg" alt="Nuevo Suplemento 1">
+                    <div class="producto-info">
+                        <h3>Nombre del Nuevo Suplemento 1</h3>
+                        <p>Descripción del nuevo suplemento 1.</p>
+                        <p>Precio: $XX.XX</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="producto5.jpg" alt="Nuevo Suplemento 2">
+                    <div class="producto-info">
+                        <h3>Nombre del Nuevo Suplemento 2</h3>
+                        <p>Descripción del nuevo suplemento 2.</p>
+                        <p>Precio: $XX.XX</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="producto6.jpg" alt="Nuevo Suplemento 3">
+                    <div class="producto-info">
+                        <h3>Nombre del Nuevo Suplemento 3</h3>
+                        <p>Descripción del nuevo suplemento 3.</p>
+                        <p>Precio: $XX.XX</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Catálogo de Suplementos Deportivos</p>
+    </footer>
+
+</body>
+</html>
